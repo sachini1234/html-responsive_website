@@ -41,11 +41,12 @@
 
 .wrapper .top-nav .right ul{
     display: flex;
+    hover: green;
 }
 
 .wrapper .top-nav .right ul li{
     margin: 0 2px;
-    border-right: 1px solid #bdbaba;
+    border-right: 1px solid #a09696;
 }
 
 .wrapper .top-nav .right ul li:last-child{
@@ -62,6 +63,13 @@
 .wrapper .top-nav .right ul li .nav-link.active{
 	color: #f3773e!important
 }
+
+.wrapper .top-nav .right ul li .nav-link.active:hover {
+    color: rgb(245, 241, 241);
+   }
+.wrapper .top-nav .right ul li .nav-link:hover {
+   color: #f3773e;
+  }
 /* End top-nav */
 
 #main{
